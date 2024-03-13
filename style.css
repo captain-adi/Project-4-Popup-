@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   position: relative;
+   width: 100vw;
+
+}
+
+#container {
+    text-align: center;
+    /* border: 3px solid; */
+}
+
+#btn {
+    background-color: rgba(73, 139, 73, 0.462);
+    border: none;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+
+.popup {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    background-color: rgb(193, 132, 132);
+    padding: 4px 10px;
+    top: -100px;
+    transform:   scale(0.1);
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px ;
+    color: green;
+}  
+
+.pop {
+    transform: scale(1);
+    visibility: visible;
+    top: 50%;
+    backdrop-filter: blur(1900px);
+
+}
+.visi{
+    visibility: hidden;
+}
